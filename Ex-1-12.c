@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+main()
+{
+	int c, prev_char;
+	while((c = getchar()) != EOF)
+	{
+		if(prev_char != ' ' && c == ' ')
+			printf("\n");
+		else
+			putchar(c);
+		prev_char = c;
+	}
+}

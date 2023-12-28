@@ -8,5 +8,42 @@ When I delete first curly bracket '{': I get expected function body after decler
 When I delete printf: the program runs, but don't print anything.  
 When I delete the last brace '}' I get: expected '}' to match the first one.  
 
+## [Exercise 1-2](Ex-1-2.c)
+Get a warning that \c is an unkown escape sequence.  
+Prints 'c' but not the backslash '\'.  
 
+## [Exercise 1-3](Ex-1-3.c)
+Added header. Changed some %3f to #5f for more space.  
+
+## [Exercise 1-4](Ex-1-4.c)
+Celsius to Fahrenheit
+
+## [Exercise 1-5](Ex-1-5.c)
+Learned to define constants.  
+Printing the table in reverse oreder with a reverse style for loop.  
+
+## [Exercise 1-6](Ex-1-6.c)
+We make a variable and assign getchar() != EOF to it, then print the variable.  
+Prints 1 when EOF is typed.  
+
+## [Exercise 1-7](Ex-1-7.c)
+Just putchar or printf with %d.
+
+## [Exercise 1-8](Ex-1-8.c)
+Counts blanks, tabs, and new lines with a while loop until it's EOF.  
+Check every character in the loop.  
+
+## [Exercise 1-9](Ex-1-9.c)
+Has two ints c and prev_char, if current character is equal to the prev character and it's equal to a blank don't do anyting 'continue', else print the character.  
+
+## [Exercise 1-10](Ex-1-10.c)
+Need to use printf not putchar, it's a bit tricky because backslash is weird.  
+
+## Exercise 1-11
+Test by giving different texts.  
+Things like 2 blanks '  ', or a new line may uncover errors.  
+
+## [Exercise 1-12](Ex-1-12.c)
+Printing a new line every encounter of a unique blank.  
+It would be better if it wasn't printing a line when a blank is preceeding or at the end.  
 
