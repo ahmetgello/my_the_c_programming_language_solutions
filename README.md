@@ -47,3 +47,30 @@ Things like 2 blanks '  ', or a new line may uncover errors.
 Printing a new line every encounter of a unique blank.  
 It would be better if it wasn't printing a line when a blank is preceeding or at the end.  
 
+## [Exercise 1-13](Ex-1-13.c)
+Checking for word end and start by usnig the previous method of: state = IN/OUT.  
+We print the histogram when it's out of a word.  
+
+## [Exercise 1-14](Ex-1-14.c)
+Storing frequency of characters in an array.  
+We add 1 to the c - 'a' character for each character.  
+
+## [Exercise 1-15](Ex-1-15.c)
+The same 1.2 Section program, but using a funcion.  
+
+## [Exercise 1-16](Ex-1-16.c)
+Revised the program, and changed MAXLINE constant to __INT16_MAX__.  
+
+## [Exercise 1-17](Ex-1-17)
+Printing lines that are longer than MINIMUM constant.  
+I made it so that you input line by line, because I see that using EOF is weird.  
+
+## [Exercise 1-18](Ex-1-18)
+I count preceeding blanks with a while loop.  
+Then copy line to cleanline with removed blanks.  
+
+## [Exercise 1-19](Ex-1-19)
+Added reverse() funciton, it make temp array. assigns value in reverse.  
+
+
+
