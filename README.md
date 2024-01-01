@@ -61,16 +61,34 @@ The same 1.2 Section program, but using a funcion.
 ## [Exercise 1-16](Ex-1-16.c)
 Revised the program, and changed MAXLINE constant to __INT16_MAX__.  
 
-## [Exercise 1-17](Ex-1-17)
+## [Exercise 1-17](Ex-1-17.c)
 Printing lines that are longer than MINIMUM constant.  
 I made it so that you input line by line, because I see that using EOF is weird.  
 
-## [Exercise 1-18](Ex-1-18)
+## [Exercise 1-18](Ex-1-18.c)
 I count preceeding blanks with a while loop.  
 Then copy line to cleanline with removed blanks.  
 
-## [Exercise 1-19](Ex-1-19)
+## [Exercise 1-19](Ex-1-19.c)
 Added reverse() funciton, it make temp array. assigns value in reverse.  
+
+## [Exercise 2-1](Ex-2-1.c)
+Found out different variables.  
+Prints char, int, and long maximum.  
+
+## [Exercise 2-2](Ex-2-2.c)
+The same 1-16 exercise i think.  
+Instead of && we can add and check if equal to 3, since a true expression is a 1.  
+
+## [Exercise 2-3](Ex-2-3.c)
+htoi() takes pointer array s and array length.  
+starts from the last element in the string.  
+Calculates power of place by taking powers of 16.  
+Adds the value of the hex number to ans.  
+This was a good question, I liked it.
+
+
+
 
 
 
